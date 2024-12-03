@@ -1,0 +1,12 @@
+GET http://localhost:5000/api/stat/catperweek?cat=Household devices HTTP/1/1
+Content-Type: application/json
+
+###
+
+GET http://localhost:5000/api/stat/category?ago=year HTTP/1/1
+Content-Type: application/json
+
+###
+
+GET http://localhost:5000/api/stat/shop?ago=week HTTP/1/1
+Content-Type: application/json
